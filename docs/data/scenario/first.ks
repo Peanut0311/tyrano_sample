@@ -54,7 +54,7 @@
 ●　　　　　　　●[r]
 ●●●●★●●●●[r]
 
-[link target=*0] 【上】 [endlink]
+[link target=*goal] 【上】 [endlink]
 [link target=*14] 【下】 [endlink]
 [link target=*0] 【左】 [endlink]
 [link target=*0] 【右】 [endlink][r]
