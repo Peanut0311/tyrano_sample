@@ -1,6 +1,6 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="迷路攻略"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
