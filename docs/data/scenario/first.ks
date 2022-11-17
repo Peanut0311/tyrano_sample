@@ -1,5 +1,5 @@
 *start
-
+[cm]
 [title name="ダンジョン攻略"]
 [hidemenubutton]
 [wait time=200]
@@ -37,6 +37,7 @@
 
 
 *answer
+[cm]
 [bg storage=answer.jpg time=500]
 [link target=*start] もう一度遊ぶ [endlink][r]
 [s]
