@@ -21,9 +21,7 @@
 
 ゴールにたどり着けばクリアだ！[l][r]
 
-クリックしてスタート[l][r]
-
-[link target=*tag_game] クリックしてスタート [endlink][r]
+[link target=*tag_run] クリックしてスタート [endlink][r]
 [s]
 
 *tag_game
