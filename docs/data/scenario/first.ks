@@ -23,6 +23,12 @@
 [s]
 
 
+*cheat
+良く見つけたな。でもズルいから最初からね！[l][r]
+[jump target=*start]
+
+
+
 *goal
 
 [bg storage=omedeto.jpg time=500]
@@ -30,11 +36,17 @@
 [cm]
 おめでとう！！無事脱出だ！！[l][r]
 
-【 END 】[l][cm]
+【 END 】[l][r][cm]
 
-[jump target=*start]
+[link target=*start] もう一度遊ぶ [endlink][r]
+[link target=*answer] 答えを見る [endlink][r]
+[s]
 
 
+*answer
+[bg storage=answer.jpg time=500]
+[link target=*start] もう一度遊ぶ [endlink][r]
+[s]
 
 *0
 [cm]
@@ -49,7 +61,7 @@
 ●　　　　　　　●[r]
 ●●●●★●●●●[r]
 
-[link target=*0] 【上】 [endlink]
+[link target=*04] 【上】 [endlink]
 [link target=*14] 【下】 [endlink]
 [link target=*0] 【左】 [endlink]
 [link target=*0] 【右】 [endlink][r]
@@ -1035,3 +1047,393 @@
 [s]
 
 
+*00
+[cm]
+
+☆　　　　　　　　　[r]
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*00] 【上】 [endlink]
+[link target=*10] 【下】 [endlink]
+[link target=*00] 【左】 [endlink]
+[link target=*01] 【右】 [endlink][r]
+[s]
+
+
+*01
+[cm]
+
+☆　　　　　　　　[r]
+●●●●　●●●●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●●●●★●●●●[r]
+
+[link target=*01] 【上】 [endlink]
+[link target=*01] 【下】 [endlink]
+[link target=*00] 【左】 [endlink]
+[link target=*02] 【右】 [endlink][r]
+[s]
+
+
+*02
+[cm]
+
+　☆　　　　　　　[r]
+●●●●　●●●●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●●●●★●●●●[r]
+
+[link target=*02] 【上】 [endlink]
+[link target=*02] 【下】 [endlink]
+[link target=*01] 【左】 [endlink]
+[link target=*03] 【右】 [endlink][r]
+[s]
+
+
+
+*03
+[cm]
+
+　　　☆　　　　　[r]
+●●●●　●●●●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●●●●★●●●●[r]
+
+[link target=*03] 【上】 [endlink]
+[link target=*03] 【下】 [endlink]
+[link target=*02] 【左】 [endlink]
+[link target=*04] 【右】 [endlink][r]
+[s]
+
+
+*04
+[cm]
+
+　　　　☆　　　　[r]
+●●●●　●●●●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●　　　　　　　●[r]
+●●●●★●●●●[r]
+
+[link target=*04] 【上】 [endlink]
+[link target=*0] 【下】 [endlink]
+[link target=*03] 【左】 [endlink]
+[link target=*05] 【右】 [endlink][r]
+[s]
+
+
+*10
+[cm]
+
+☆●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*00] 【上】 [endlink]
+[link target=*20] 【下】 [endlink]
+[link target=*10] 【左】 [endlink]
+[link target=*10] 【右】 [endlink][r]
+[s]
+
+*20
+[cm]
+
+　●●●●　●●●●[r]
+☆●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*10] 【上】 [endlink]
+[link target=*30] 【下】 [endlink]
+[link target=*20] 【左】 [endlink]
+[link target=*20] 【右】 [endlink][r]
+[s]
+
+*30
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+☆●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*20] 【上】 [endlink]
+[link target=*40] 【下】 [endlink]
+[link target=*30] 【左】 [endlink]
+[link target=*30] 【右】 [endlink][r]
+[s]
+
+*40
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+☆●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*30] 【上】 [endlink]
+[link target=*50] 【下】 [endlink]
+[link target=*40] 【左】 [endlink]
+[link target=*40] 【右】 [endlink][r]
+[s]
+
+*50
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+☆●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*40] 【上】 [endlink]
+[link target=*60] 【下】 [endlink]
+[link target=*50] 【左】 [endlink]
+[link target=*50] 【右】 [endlink][r]
+[s]
+
+*60
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+☆●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*50] 【上】 [endlink]
+[link target=*70] 【下】 [endlink]
+[link target=*60] 【左】 [endlink]
+[link target=*60] 【右】 [endlink][r]
+[s]
+
+*70
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+☆●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*60] 【上】 [endlink]
+[link target=*80] 【下】 [endlink]
+[link target=*70] 【左】 [endlink]
+[link target=*70] 【右】 [endlink][r]
+[s]
+
+*80
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+☆●　　　　　　　●[r]
+　●●●●★●●●●[r]
+
+[link target=*70] 【上】 [endlink]
+[link target=*90] 【下】 [endlink]
+[link target=*80] 【左】 [endlink]
+[link target=*80] 【右】 [endlink][r]
+[s]
+
+*90
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+☆●●●●★●●●●[r]
+
+[link target=*80] 【上】 [endlink]
+[link target=*100] 【下】 [endlink]
+[link target=*90] 【左】 [endlink]
+[link target=*90] 【右】 [endlink][r]
+[s]
+
+*100
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+☆[r]
+[link target=*90] 【上】 [endlink]
+[link target=*100] 【下】 [endlink]
+[link target=*100] 【左】 [endlink]
+[link target=*101] 【右】 [endlink][r]
+[s]
+
+*101
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+　☆[r]
+[link target=*101] 【上】 [endlink]
+[link target=*101] 【下】 [endlink]
+[link target=*100] 【左】 [endlink]
+[link target=*102] 【右】 [endlink][r]
+[s]
+
+*102
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+　　☆[r]
+[link target=*102] 【上】 [endlink]
+[link target=*102] 【下】 [endlink]
+[link target=*101] 【左】 [endlink]
+[link target=*103] 【右】 [endlink][r]
+[s]
+
+*103
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+　　　☆[r]
+[link target=*103] 【上】 [endlink]
+[link target=*103] 【下】 [endlink]
+[link target=*102] 【左】 [endlink]
+[link target=*104] 【右】 [endlink][r]
+[s]
+
+*104
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+　　　　☆[r]
+[link target=*104] 【上】 [endlink]
+[link target=*104] 【下】 [endlink]
+[link target=*103] 【左】 [endlink]
+[link target=*105] 【右】 [endlink][r]
+[s]
+
+*105
+[cm]
+
+　●●●●　●●●●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●　　　　　　　●[r]
+　●●●●★●●●●[r]
+　　　　　☆[r]
+[link target=*cheat] 【上】 [endlink]
+[link target=*105] 【下】 [endlink]
+[link target=*104] 【左】 [endlink]
+[link target=*105] 【右】 [endlink][r]
+[s]
